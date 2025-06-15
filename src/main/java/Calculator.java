@@ -19,4 +19,8 @@ public class Calculator {
   }
   // This method should return the result of dividing x by y
 
+  public boolean isEven(int i) {
+    return (i % 2 == 0);
+
+  }
 }
